@@ -187,7 +187,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x02"
+		(symbol "Connector_Generic:Conn_01x01"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -207,8 +207,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -239,7 +239,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -272,10 +272,10 @@
 					)
 				)
 			)
-			(symbol "Conn_01x02_1_1"
+			(symbol "Conn_01x01_1_1"
 				(rectangle
 					(start -1.27 1.27)
-					(end 1.27 -3.81)
+					(end 1.27 -1.27)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -295,17 +295,6 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
@@ -317,24 +306,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1181,7 +1152,7 @@
 	)
 	(text "Connect to \nMS-RTENG"
 		(exclude_from_sim no)
-		(at 88.646 98.806 0)
+		(at 79.756 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1199,7 +1170,7 @@
 		)
 		(uuid "4974bfee-3df4-4603-bf7b-0dd9c017b881")
 	)
-	(text "CL21B103KBANNNC Capacitors\nRated 50V"
+	(text "UCS2G100MPD1TD Capacitor\nRated 400V"
 		(exclude_from_sim no)
 		(at 233.426 38.1 0)
 		(effects
@@ -1208,16 +1179,6 @@
 			)
 		)
 		(uuid "51df2c34-037d-44ee-9a67-fb9bfef8ea08")
-	)
-	(text "DFLR1400-7\n"
-		(exclude_from_sim no)
-		(at 159.004 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a02abe53-efa8-4de8-b231-ad2cb662d115")
 	)
 	(text "Mounting Holes"
 		(exclude_from_sim no)
@@ -1231,7 +1192,7 @@
 	)
 	(text "MS-RTENG Eq. Impedance = 10pF"
 		(exclude_from_sim no)
-		(at 88.646 104.648 0)
+		(at 81.026 104.648 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1269,16 +1230,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.934 48.006) (xy 239.776 48.006)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12d3f446-8919-45bb-9c96-92dc5f220804")
-	)
-	(wire
-		(pts
 			(xy 110.236 90.17) (xy 120.142 90.17)
 		)
 		(stroke
@@ -1299,26 +1250,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.292 90.17) (xy 177.292 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a409aa2-3a51-4d62-8d18-6d8909243a2b")
-	)
-	(wire
-		(pts
-			(xy 239.776 96.012) (xy 239.776 98.552)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3adb8c22-366e-46c9-901b-1b69dcacce2b")
-	)
-	(wire
-		(pts
 			(xy 148.082 90.17) (xy 155.194 90.17)
 		)
 		(stroke
@@ -1329,33 +1260,13 @@
 	)
 	(wire
 		(pts
-			(xy 84.836 91.948) (xy 106.172 91.948)
+			(xy 84.836 90.17) (xy 110.236 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3f29fc60-081e-4158-9d4f-6d30a34bef4c")
-	)
-	(wire
-		(pts
-			(xy 239.776 67.31) (xy 239.776 69.088)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43addfc8-9e60-4ced-b988-3b10c362cfcd")
-	)
-	(wire
-		(pts
-			(xy 221.742 76.708) (xy 221.742 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44d10194-000e-4426-b67a-8da61f2a6151")
 	)
 	(wire
 		(pts
@@ -1369,23 +1280,13 @@
 	)
 	(wire
 		(pts
-			(xy 162.814 90.17) (xy 177.292 90.17)
+			(xy 162.814 90.17) (xy 184.658 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4e02c34e-eea8-4440-aed2-969da6eb52bd")
-	)
-	(wire
-		(pts
-			(xy 177.292 92.71) (xy 184.658 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f9415e1-a36e-43d8-b15b-1264d42169d6")
 	)
 	(wire
 		(pts
@@ -1419,36 +1320,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.172 90.17) (xy 110.236 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "890970f2-d340-4080-b68b-2ea779271761")
-	)
-	(wire
-		(pts
-			(xy 221.742 96.012) (xy 233.934 96.012)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d0b60ed-6f41-4622-9146-2f97d31f7a10")
-	)
-	(wire
-		(pts
-			(xy 221.742 86.36) (xy 221.742 88.392)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4b52196-ed22-4aea-9a6c-e58c39fd8e1a")
-	)
-	(wire
-		(pts
 			(xy 177.292 95.25) (xy 184.658 95.25)
 		)
 		(stroke
@@ -1456,16 +1327,6 @@
 			(type default)
 		)
 		(uuid "c27a36d7-c396-4c31-bf50-b74e70cf9175")
-	)
-	(wire
-		(pts
-			(xy 233.934 96.012) (xy 233.934 48.006)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c66d0f86-06b3-40d9-8123-f931ceb83e4e")
 	)
 	(wire
 		(pts
@@ -1479,7 +1340,7 @@
 	)
 	(wire
 		(pts
-			(xy 221.742 50.292) (xy 221.742 48.006)
+			(xy 232.918 67.818) (xy 232.918 65.532)
 		)
 		(stroke
 			(width 0)
@@ -1489,27 +1350,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.172 91.948) (xy 106.172 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d65c73d5-fbc6-4e0a-8170-c328690ed60c")
-	)
-	(wire
-		(pts
-			(xy 239.776 86.36) (xy 239.776 88.392)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e06ec73e-674e-453d-b477-f61860df7032")
-	)
-	(wire
-		(pts
-			(xy 221.742 57.912) (xy 221.742 59.69)
+			(xy 232.918 75.438) (xy 232.918 77.216)
 		)
 		(stroke
 			(width 0)
@@ -1517,48 +1358,8 @@
 		)
 		(uuid "e1c4e1cf-3ee7-4d07-9601-1f765278f68d")
 	)
-	(wire
-		(pts
-			(xy 239.776 50.292) (xy 239.776 48.006)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0c4a83d-daea-4241-8341-a51f872ac588")
-	)
-	(wire
-		(pts
-			(xy 239.776 57.912) (xy 239.776 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fca20ac4-af64-4d88-9c1c-60128cc6f954")
-	)
-	(wire
-		(pts
-			(xy 239.776 76.708) (xy 239.776 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffe4d9a1-72bd-486c-b16b-1e314746b535")
-	)
-	(wire
-		(pts
-			(xy 221.742 67.31) (xy 221.742 69.088)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fffdaea4-e6c6-4ba1-b269-544ab6aafafc")
-	)
 	(label "MS_RTENG_OUT"
-		(at 88.646 91.948 0)
+		(at 88.646 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1568,7 +1369,7 @@
 		(uuid "1694298e-86e1-4de9-835e-764376ac9ee6")
 	)
 	(label "V_OUT"
-		(at 221.742 48.006 0)
+		(at 232.918 65.532 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1596,86 +1397,6 @@
 			(justify left bottom)
 		)
 		(uuid "ef072847-ad44-46e2-b2d1-8ad06b88df24")
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 79.756 94.488 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "09e7764b-21c2-419d-9a11-73e7327069f9")
-		(property "Reference" "J1"
-			(at 79.756 85.598 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 79.756 88.138 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 79.756 94.488 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 79.756 94.488 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 79.756 94.488 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f170e364-56e7-4503-ae67-50dfc1573e8f")
-		)
-		(pin "2"
-			(uuid "699bb61d-8669-477c-af2b-56c848f05c9e")
-		)
-		(instances
-			(project "CMEO_PMS"
-				(path "/4b88eb90-c4e1-404a-9521-b95a177df92c"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -1765,7 +1486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cfe02b5-959f-4217-90a7-4023e9d158f2")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 143.764 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1823,7 +1544,7 @@
 		(instances
 			(project "CMEO_PMS"
 				(path "/4b88eb90-c4e1-404a-9521-b95a177df92c"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -1906,88 +1627,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 239.776 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24fb3dd2-e1ff-49f3-9360-f0b50748ecfa")
-		(property "Reference" "C7"
-			(at 243.84 61.3409 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10nF"
-			(at 243.84 63.8809 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 240.7412 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 239.776 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 239.776 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3ccce3e7-24dc-4e9b-9380-8a95eb1aef99")
-		)
-		(pin "2"
-			(uuid "36251144-97c5-4ee3-ae1e-ac542a0e22b1")
-		)
-		(instances
-			(project "CMEO_PMS"
-				(path "/4b88eb90-c4e1-404a-9521-b95a177df92c"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 159.004 90.17 180)
 		(unit 1)
@@ -2000,7 +1639,7 @@
 		(fields_autoplaced yes)
 		(uuid "26b238a6-2f2e-4f94-b67c-14a2fcb1c1f2")
 		(property "Reference" "D1"
-			(at 159.004 84.328 0)
+			(at 159.004 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2009,8 +1648,8 @@
 				)
 			)
 		)
-		(property "Value" "D"
-			(at 159.004 86.868 0)
+		(property "Value" "1N4004RLG"
+			(at 159.004 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2019,7 +1658,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMEO_PMS:DFLR1400-7"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 159.004 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2090,8 +1729,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 189.738 92.71 0)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 79.756 94.488 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2099,32 +1738,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41b5b7df-ab41-494e-97dc-9954f1692ce3")
+		(uuid "59d5894b-3aa5-433b-b19e-6380d9c1c7af")
 		(property "Reference" "J2"
-			(at 192.532 92.7099 0)
+			(at 79.756 97.282 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
-			(at 192.532 95.2499 0)
+		(property "Value" "Conn_01x01"
+			(at 79.756 99.822 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 189.738 92.71 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 79.756 94.488 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2135,7 +1771,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.738 92.71 0)
+			(at 79.756 94.488 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2145,8 +1781,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 189.738 92.71 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 79.756 94.488 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2157,179 +1793,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a18d1d5d-f34c-4b24-a55a-c54527ee6bbb")
-		)
-		(pin "2"
-			(uuid "634e8134-ab7f-42a7-9d09-29586e9f3cff")
+			(uuid "335ed3d2-5118-47ca-a90a-3366fbb75998")
 		)
 		(instances
 			(project "CMEO_PMS"
 				(path "/4b88eb90-c4e1-404a-9521-b95a177df92c"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 221.742 92.202 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d56c68a-5911-47e5-9a2d-e60bfe135434")
-		(property "Reference" "C5"
-			(at 224.79 90.0429 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10nF"
-			(at 224.79 92.5829 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 222.7072 96.012 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 221.742 92.202 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 221.742 92.202 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "67ce9b60-5755-4dbe-9299-a701122591c0")
-		)
-		(pin "2"
-			(uuid "3599626a-40fb-451b-a7b9-cc339f2fee0a")
-		)
-		(instances
-			(project "CMEO_PMS"
-				(path "/4b88eb90-c4e1-404a-9521-b95a177df92c"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 221.742 72.898 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d306a63-c9cf-4a89-969b-afea24aff0e7")
-		(property "Reference" "C3"
-			(at 224.79 70.7389 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10nF"
-			(at 224.79 73.2789 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 222.7072 76.708 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 221.742 72.898 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 221.742 72.898 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0d3801b9-308f-48bb-9c0e-25da9381a493")
-		)
-		(pin "2"
-			(uuid "a5937681-c83c-4f00-8b8b-2249ffa567d1")
-		)
-		(instances
-			(project "CMEO_PMS"
-				(path "/4b88eb90-c4e1-404a-9521-b95a177df92c"
-					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -2347,7 +1816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66b3c699-3d88-409d-9103-f793ef1894d1")
-		(property "Reference" "H2"
+		(property "Reference" "H3"
 			(at 152.4 46.7359 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2405,7 +1874,7 @@
 		(instances
 			(project "CMEO_PMS"
 				(path "/4b88eb90-c4e1-404a-9521-b95a177df92c"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -2582,172 +2051,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 221.742 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7babd9ab-5e27-4e7e-baa4-296a2b4d376a")
-		(property "Reference" "C4"
-			(at 224.79 80.3909 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10nF"
-			(at 224.79 82.9309 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 222.7072 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 221.742 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 221.742 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6be7675f-442f-480d-9666-34b6b81090de")
-		)
-		(pin "2"
-			(uuid "25a03c1f-05f7-4a80-9709-f17f328a2293")
-		)
-		(instances
-			(project "CMEO_PMS"
-				(path "/4b88eb90-c4e1-404a-9521-b95a177df92c"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 239.776 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f945f10-7419-48fa-8187-9e6f3279d55d")
-		(property "Reference" "C9"
-			(at 243.84 80.3909 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10nF"
-			(at 243.84 82.9309 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 240.7412 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 239.776 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 239.776 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c913c44d-6eca-4606-8adc-efd7f43f06c8")
-		)
-		(pin "2"
-			(uuid "34165ffd-07ea-4133-a63a-9a473c5d2c17")
-		)
-		(instances
-			(project "CMEO_PMS"
-				(path "/4b88eb90-c4e1-404a-9521-b95a177df92c"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND2")
-		(at 239.776 98.552 0)
+		(at 232.918 77.216 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2758,7 +2063,7 @@
 		(fields_autoplaced yes)
 		(uuid "891cff9b-03fd-4367-993b-9342f52cb11b")
 		(property "Reference" "#PWR03"
-			(at 239.776 104.902 0)
+			(at 232.918 83.566 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2769,7 +2074,7 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 239.776 103.886 0)
+			(at 232.918 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2779,7 +2084,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 239.776 98.552 0)
+			(at 232.918 77.216 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2790,7 +2095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 239.776 98.552 0)
+			(at 232.918 77.216 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2801,7 +2106,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 239.776 98.552 0)
+			(at 232.918 77.216 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2824,8 +2129,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 239.776 92.202 0)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 189.738 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2834,9 +2139,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a2bfe472-7d43-44da-ae29-0432c4a6417a")
-		(property "Reference" "C10"
-			(at 243.84 90.0429 0)
+		(uuid "97481358-bf6b-4120-98c4-8e808c88b728")
+		(property "Reference" "J4"
+			(at 192.024 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2846,8 +2151,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
-			(at 243.84 92.5829 0)
+		(property "Value" "Conn_01x01"
+			(at 192.024 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2857,8 +2162,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 240.7412 96.012 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 189.738 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2869,7 +2174,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 239.776 92.202 0)
+			(at 189.738 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2879,8 +2184,8 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 239.776 92.202 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 189.738 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2891,15 +2196,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "36cf0e99-a56b-4fcd-aaa2-a7732b5c56bf")
-		)
-		(pin "2"
-			(uuid "22103b62-590c-4071-97bb-9524cd8f179b")
+			(uuid "fc9c370b-58ce-4608-ab37-eb97be5c50f8")
 		)
 		(instances
 			(project "CMEO_PMS"
 				(path "/4b88eb90-c4e1-404a-9521-b95a177df92c"
-					(reference "C10")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2984,88 +2286,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 239.776 72.898 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af3c270b-97c9-4c7a-97e1-03614e2571c5")
-		(property "Reference" "C8"
-			(at 243.84 70.7389 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10nF"
-			(at 243.84 73.2789 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 240.7412 76.708 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 239.776 72.898 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 239.776 72.898 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "10b36342-8327-4cc4-94f0-76d61cdcff8e")
-		)
-		(pin "2"
-			(uuid "b39e01a1-bfc3-4a9f-b86f-7a4d79df8d07")
-		)
-		(instances
-			(project "CMEO_PMS"
-				(path "/4b88eb90-c4e1-404a-9521-b95a177df92c"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND1")
 		(at 111.76 100.838 0)
 		(unit 1)
@@ -3144,8 +2364,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 221.742 63.5 0)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 189.738 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3154,9 +2374,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b8d00fdb-7e53-4dbd-ae7c-998958ac1416")
-		(property "Reference" "C2"
-			(at 224.79 61.3409 0)
+		(uuid "c8aa9753-a284-4233-9f87-893b9e051f0a")
+		(property "Reference" "J3"
+			(at 192.532 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3166,8 +2386,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
-			(at 224.79 63.8809 0)
+		(property "Value" "Conn_01x01"
+			(at 192.532 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3177,8 +2397,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 222.7072 67.31 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 189.738 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3189,7 +2409,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 221.742 63.5 0)
+			(at 189.738 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3199,8 +2419,8 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 221.742 63.5 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 189.738 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3211,23 +2431,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "9a77ee15-2ed4-4431-90f1-687cd6980ae5")
-		)
-		(pin "2"
-			(uuid "7bccd7b5-b7d6-4ba2-88fe-ae744e51392d")
+			(uuid "b92370e9-7b31-41d4-9484-fa568b4f3fa3")
 		)
 		(instances
 			(project "CMEO_PMS"
 				(path "/4b88eb90-c4e1-404a-9521-b95a177df92c"
-					(reference "C2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 221.742 54.102 0)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 79.756 90.17 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3236,31 +2453,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dde3091e-bed2-43c0-8fa8-ca1b00786fdf")
-		(property "Reference" "C1"
-			(at 224.79 51.9429 0)
+		(uuid "cba45492-da85-4274-a6e3-06a8b920513e")
+		(property "Reference" "J1"
+			(at 79.756 83.312 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10nF"
-			(at 224.79 54.4829 0)
+		(property "Value" "Conn_01x01"
+			(at 79.756 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 222.7072 57.912 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 79.756 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3271,7 +2486,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 221.742 54.102 0)
+			(at 79.756 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 79.756 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa8dedf3-527d-4b7d-9b34-0650423d9ba5")
+		)
+		(instances
+			(project "CMEO_PMS"
+				(path "/4b88eb90-c4e1-404a-9521-b95a177df92c"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 232.918 71.628 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dde3091e-bed2-43c0-8fa8-ca1b00786fdf")
+		(property "Reference" "C1"
+			(at 236.22 69.4689 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 236.22 72.0089 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 233.8832 75.438 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.918 71.628 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3282,7 +2576,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 221.742 54.102 0)
+			(at 232.918 71.628 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3302,88 +2596,6 @@
 			(project "CMEO_PMS"
 				(path "/4b88eb90-c4e1-404a-9521-b95a177df92c"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 239.776 54.102 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f3b47306-e032-4075-b41c-f2d8aac96a16")
-		(property "Reference" "C6"
-			(at 243.84 51.9429 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10nF"
-			(at 243.84 54.4829 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 240.7412 57.912 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 239.776 54.102 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 239.776 54.102 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "31c7d3be-5911-4b79-a966-62b2c28b7af6")
-		)
-		(pin "2"
-			(uuid "f5f36159-b3df-4d55-a267-2471727f79e9")
-		)
-		(instances
-			(project "CMEO_PMS"
-				(path "/4b88eb90-c4e1-404a-9521-b95a177df92c"
-					(reference "C6")
 					(unit 1)
 				)
 			)
